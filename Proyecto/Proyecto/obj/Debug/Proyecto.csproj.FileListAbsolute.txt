@@ -1,0 +1,13 @@
+C:\Users\cavas\Desktop\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\cavas\Desktop\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\cavas\Desktop\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\cavas\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.csprojAssemblyReference.cache
+C:\Users\cavas\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\cavas\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\cavas\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\cavas\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\cavas\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\cavas\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Form1.resources
+C:\Users\cavas\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Menu.resources
+C:\Users\cavas\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Usuario.resources
+C:\Users\cavas\Desktop\Proyecto\Proyecto\obj\Debug\Proyecto.Juego.resources
