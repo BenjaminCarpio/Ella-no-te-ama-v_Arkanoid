@@ -1,136 +1,144 @@
 ﻿using System;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Windows.Forms;
+using Proyecto.Modelo;
 
 namespace Proyecto
 {
     public partial class Juego : Form
     {
-        bool goLeft;
-        bool goRight;
-        bool isGameOver;
-        int score;
-        int ballx;
-        int bally;
-        int playerSpeed;
-        Random rnd = new Random();
-
+        private CustomBlocks[,] cpb;
+        private PictureBox Ball;
         public Juego()
         {
             InitializeComponent();
-            setupGame();
+            Height = ClientSize.Height;
+            Width = ClientSize.Width;
+            WindowState = FormWindowState.Maximized;
         }
-
-        private void setupGame()
+        
+        private void Juego_Load(object sender, EventArgs e)
         {
-            score = 0;
-            ballx = 5;
-            bally = 5;
-            playerSpeed = 12;
+            player.BackgroundImage = Image.FromFile("../../../Sprites/Player.png");
+            player.BackgroundImageLayout = ImageLayout.Stretch;
+            player.Top = (Height - player.Height) - 80;
+            player.Left = (Width / 2) - (player.Width / 2);
+            Ball =new PictureBox();
+            Ball.Width = Ball.Height = 20;
+            Ball.BackgroundImage= Image.FromFile("../../../Sprites/Ball.png");
+            Ball.BackgroundImageLayout = ImageLayout.Stretch;
+            Ball.Top = player.Top - Ball.Height;
+            Ball.Left = player.Left + (player.Width / 2)- (Ball.Width / 2);
+            Controls.Add(Ball);
+            SlabsCustoms();
             gameTimer.Start();
-            foreach (Control x in this.Controls)
-            {
-                if (x is PictureBox && (string) x.Tag == "blocks")
-                {
-                    x.BackColor = Color.FromArgb(rnd.Next(256), rnd.Next(256), rnd.Next(256));
-                }
-            }  
         }
 
-        private void gameOver(string message)
+        private void SlabsCustoms()
         {
-            isGameOver = true;
-            gameTimer.Stop();
+            int xAxis = 10;
+            int yAxis = 5;
+
+            int pbHeight = (int) (Height * 0.3) / yAxis;
+            int pbWidth = (Width-(xAxis - 5)) / xAxis;
             
-            txtScore.Text = "Score: " + score + "  "+ message;
+            cpb = new CustomBlocks[yAxis,xAxis];
+
+            for (int i = 0; i < yAxis; i++)
+            {
+                for (int j = 0; j < xAxis; j++)
+                {
+                    cpb[i,j]=new CustomBlocks();
+
+                    if (i == 0)
+                        cpb[i, j].Hits = 2;
+                    else
+                        cpb[i, j].Hits = 1;
+
+                    cpb[i, j].Height = pbHeight;
+                    cpb[i, j].Width = pbWidth;
+                    cpb[i, j].Left = j * pbWidth;
+                    cpb[i, j].Top = i * pbHeight;
+                    
+                    cpb[i,j].BackgroundImage=Image.FromFile("../../../Sprites/" + GR() + ".png");
+                    cpb[i, j].BackgroundImageLayout = ImageLayout.Stretch;
+
+                    cpb[i, j].Tag = "tiletag";
+                    
+                    Controls.Add(cpb[i,j]);
+                }
+            }
         }
 
-        private void mainGameTimerEvent(object sender, EventArgs e)
+        private int GR()
         {
-            txtScore.Text = "Score: " + score;
-            if (goLeft == true && player.Left > 0)
-            {
-                player.Left -= playerSpeed;
-            }
+            return  new Random().Next(1,8);
+        }
 
-            if (goRight == true && player.Left < 500)
+        private void Juego_MouseMove(object sender, MouseEventArgs e)
+        {
+            if(!DatosJuego.juegoIniciado)
             {
-                player.Left += playerSpeed;
-            }
-
-            ball.Left += ballx;
-            ball.Top += bally;
-            if (ball.Left < 0 || ball.Left > 550)
-            {
-                ballx = -ballx; 
-            }
-
-            if (ball.Top < 0)
-            {
-                bally = -bally;
-            }
-
-            if (ball.Bounds.IntersectsWith(player.Bounds))
-            {
-                bally = rnd.Next(5, 12)*-1;
-
-                if (ballx < 0)
+                if (e.X < (Width - player.Width))
                 {
-                    ballx = rnd.Next(5,12)*-1;
-                }
-                else
-                {
-                    ballx = rnd.Next(5, 12);
+                    player.Left = e.X;
+                    Ball.Left = player.Left + (player.Width / 2)- (Ball.Width / 2);
                 }
             }
-            foreach (Control x in this.Controls)
+            else
             {
-                 if (x is PictureBox && (string) x.Tag == "blocks")
-                 {
-                     if (ball.Bounds.IntersectsWith(x.Bounds))
-                     {
-                         score += 1;
-                         bally = -bally;
-                         this.Controls.Remove(x);
-                     }
-                 }
+                if(e.X < (Width -player.Width))
+                    player.Left = e.X;
             }
+        }
 
-            if (score == 15)
-            {
-                gameOver("HAS GANADO!!");
-            }
 
-            if (ball.Top > 516)
-            {
-               gameOver("HAS PERDIDO!!");
-            }
+        private void gameTimer_Tick(object sender, EventArgs e)
+        {
+            if (!DatosJuego.juegoIniciado)
+                return;
+            Ball.Left += DatosJuego.dirX;
+            Ball.Top += DatosJuego.dirY;
             
+            rebotarPelota();
         }
 
-        private void keyisdown(object sender, KeyEventArgs e)
+        private void Juego_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Left)
-            {
-                goLeft = true;
-            }
-
-            if (e.KeyCode == Keys.Right)
-            {
-                goRight = true;
-            }
+            if (e.KeyCode == Keys.Space)
+                DatosJuego.juegoIniciado = true;
         }
 
-        private void keyisup(object sender, KeyEventArgs e)
+        private void rebotarPelota()
         {
-            if (e.KeyCode == Keys.Left)
+            if(Ball.Bottom > Height)
+                Application.Exit();
+            if (Ball.Left < 0 || Ball.Right > Width)
             {
-                goLeft = false;
+                DatosJuego.dirX = -DatosJuego.dirX;
+                    return;
             }
 
-            if (e.KeyCode == Keys.Right)
+            if (Ball.Bounds.IntersectsWith(player.Bounds))
             {
-                goRight = false;
+                DatosJuego.dirY = -DatosJuego.dirY;
+            }
+
+            for (int i = 4; i >= 0; i--)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    if (Ball.Bounds.IntersectsWith(cpb[i, j].Bounds))
+                    {
+                        cpb[i, j].Hits--;
+                        
+                        if(cpb[i,j].Hits == 0)
+                            Controls.Remove(cpb[i,j]);
+                        
+                        DatosJuego.dirY = -DatosJuego.dirY;
+                    }
+                }
             }
         }
     }

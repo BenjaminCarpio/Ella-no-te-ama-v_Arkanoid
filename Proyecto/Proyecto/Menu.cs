@@ -14,7 +14,6 @@ namespace Proyecto
         {
             Juego j= new Juego();
             j.Show();
-            this.Hide();
         }
     }
 }

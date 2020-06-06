@@ -14,7 +14,6 @@ namespace Proyecto
         {
             Menu m= new Menu();
              m.Show();
-            this.Hide();
         }
     }
 }

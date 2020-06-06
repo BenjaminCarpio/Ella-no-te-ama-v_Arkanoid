@@ -11,24 +11,31 @@
     <favorites_list name="Proyecto" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Proyecto/Juego.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Proyecto/Juego.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Proyecto/Usuario.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Proyecto/Usuario.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Proyecto/Form1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Modelo/CustomBlocks.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Proyecto/Menu.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Proyecto/Menu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Usuario.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6FF151C8-A24F-45E5-B6E3-6BC715719162/d4/8baf801d/Form.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Juego.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/DatosJuego.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Juego.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Usuario.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Form1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Proyecto/Menu.Designer.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Usuario.Designer.cs" />
-        <option value="$PROJECT_DIR$/Proyecto/Form1.cs" />
-        <option value="$PROJECT_DIR$/Proyecto/Usuario.cs" />
+        <option value="$PROJECT_DIR$/Proyecto/Program.cs" />
+        <option value="$PROJECT_DIR$/Proyecto/Modelo/CustomBlocks.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Juego.Designer.cs" />
-        <option value="$PROJECT_DIR$/Proyecto/Menu.cs" />
+        <option value="$PROJECT_DIR$/Proyecto/DatosJuego.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Juego.cs" />
+        <option value="$PROJECT_DIR$/Proyecto/Menu.cs" />
+        <option value="$PROJECT_DIR$/Proyecto/Usuario.cs" />
+        <option value="$PROJECT_DIR$/Proyecto/Form1.cs" />
       </list>
     </option>
   </component>
@@ -83,6 +90,11 @@
       <workItem from="1591305593300" duration="13816000" />
       <workItem from="1591364454098" duration="200000" />
       <workItem from="1591364677540" duration="4064000" />
+      <workItem from="1591376785990" duration="2492000" />
+      <workItem from="1591424229179" duration="8583000" />
+      <workItem from="1591453853443" duration="162000" />
+      <workItem from="1591454046119" duration="4098000" />
+      <workItem from="1591458711919" duration="4407000" />
     </task>
     <servers />
   </component>
@@ -92,22 +104,26 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="WindowStateProjectService">
-    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1591370814048">
+    <state width="1323" height="48" key="GridCell.Tab.0.bottom" timestamp="1591463239123">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591370814048" />
-    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1591370814048">
+    <state width="1323" height="48" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591463239123" />
+    <state width="1493" height="220" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1591436602326" />
+    <state width="1323" height="48" key="GridCell.Tab.0.center" timestamp="1591463239123">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591370814048" />
-    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1591370814048">
+    <state width="1323" height="48" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591463239123" />
+    <state width="1493" height="220" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1591436602326" />
+    <state width="1323" height="48" key="GridCell.Tab.0.left" timestamp="1591463239123">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591370814048" />
-    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1591370814048">
+    <state width="1323" height="48" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591463239123" />
+    <state width="1493" height="220" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1591436602326" />
+    <state width="1323" height="48" key="GridCell.Tab.0.right" timestamp="1591463239123">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591370814048" />
+    <state width="1323" height="48" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591463239123" />
+    <state width="1493" height="220" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1591436602326" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1591331118980">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

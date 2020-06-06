@@ -21,7 +21,6 @@ namespace Proyecto
         {
             Usuario u = new Usuario();
             u.Show();
-            this.Hide();
         }
     }
 }
