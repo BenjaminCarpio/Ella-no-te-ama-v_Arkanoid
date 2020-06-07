@@ -36,3 +36,15 @@ C:\Users\cavas\Downloads\Proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.Ge
 C:\Users\cavas\Downloads\Proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
 C:\Users\cavas\Downloads\Proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.exe
 C:\Users\cavas\Downloads\Proyecto\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\Edu1\Desktop\ProyectoPOO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\Edu1\Desktop\ProyectoPOO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\Edu1\Desktop\ProyectoPOO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\Edu1\Desktop\ProyectoPOO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.csprojAssemblyReference.cache
+C:\Users\Edu1\Desktop\ProyectoPOO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.Form1.resources
+C:\Users\Edu1\Desktop\ProyectoPOO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.Juego.resources
+C:\Users\Edu1\Desktop\ProyectoPOO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.Menu.resources
+C:\Users\Edu1\Desktop\ProyectoPOO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\Edu1\Desktop\ProyectoPOO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.Usuario.resources
+C:\Users\Edu1\Desktop\ProyectoPOO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\Edu1\Desktop\ProyectoPOO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\Edu1\Desktop\ProyectoPOO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.pdb

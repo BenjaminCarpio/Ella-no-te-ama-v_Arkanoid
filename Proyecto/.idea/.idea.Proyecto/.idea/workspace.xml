@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e3ed65d-66a3-4418-bf42-483579497ffe" name="Default Changelist" comment="" />
+    <list default="true" id="0e3ed65d-66a3-4418-bf42-483579497ffe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/bin/Debug/Proyecto.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/bin/Debug/Proyecto.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/bin/Debug/Proyecto.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/bin/Debug/Proyecto.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,25 +20,26 @@
   <component name="FavoritesManager">
     <favorites_list name="Proyecto" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Proyecto/Modelo/CustomBlocks.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Proyecto/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/DatosJuego.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Proyecto/Menu.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Proyecto/Menu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Proyecto/Usuario.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6FF151C8-A24F-45E5-B6E3-6BC715719162/d4/8baf801d/Form.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Proyecto/Juego.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Proyecto/DatosJuego.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Proyecto/Juego.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Proyecto/Usuario.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Proyecto/Form1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Modelo/CustomBlocks.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Proyecto/Menu.Designer.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Usuario.Designer.cs" />
-        <option value="$PROJECT_DIR$/Proyecto/Program.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Modelo/CustomBlocks.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Juego.Designer.cs" />
         <option value="$PROJECT_DIR$/Proyecto/DatosJuego.cs" />
@@ -36,10 +47,12 @@
         <option value="$PROJECT_DIR$/Proyecto/Menu.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Usuario.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Form1.cs" />
+        <option value="$PROJECT_DIR$/Proyecto/Program.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1cs7fJZbvmakft13uis1DZCLJmK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -49,6 +62,7 @@
   <component name="PropertiesComponent">
     <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -95,6 +109,7 @@
       <workItem from="1591453853443" duration="162000" />
       <workItem from="1591454046119" duration="4098000" />
       <workItem from="1591458711919" duration="4407000" />
+      <workItem from="1591501154109" duration="125000" />
     </task>
     <servers />
   </component>
@@ -104,26 +119,30 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="WindowStateProjectService">
-    <state width="1323" height="48" key="GridCell.Tab.0.bottom" timestamp="1591463239123">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1805" height="295" key="GridCell.Tab.0.bottom" timestamp="1591501278488">
+      <screen x="0" y="0" width="1848" height="1080" />
     </state>
     <state width="1323" height="48" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591463239123" />
     <state width="1493" height="220" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1591436602326" />
-    <state width="1323" height="48" key="GridCell.Tab.0.center" timestamp="1591463239123">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1805" height="295" key="GridCell.Tab.0.bottom/0.0.1848.1080/1920.0.1858.1080@0.0.1848.1080" timestamp="1591501278488" />
+    <state width="1805" height="295" key="GridCell.Tab.0.center" timestamp="1591501278488">
+      <screen x="0" y="0" width="1848" height="1080" />
     </state>
     <state width="1323" height="48" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591463239123" />
     <state width="1493" height="220" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1591436602326" />
-    <state width="1323" height="48" key="GridCell.Tab.0.left" timestamp="1591463239123">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1805" height="295" key="GridCell.Tab.0.center/0.0.1848.1080/1920.0.1858.1080@0.0.1848.1080" timestamp="1591501278488" />
+    <state width="1805" height="295" key="GridCell.Tab.0.left" timestamp="1591501278488">
+      <screen x="0" y="0" width="1848" height="1080" />
     </state>
     <state width="1323" height="48" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591463239123" />
     <state width="1493" height="220" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1591436602326" />
-    <state width="1323" height="48" key="GridCell.Tab.0.right" timestamp="1591463239123">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1805" height="295" key="GridCell.Tab.0.left/0.0.1848.1080/1920.0.1858.1080@0.0.1848.1080" timestamp="1591501278488" />
+    <state width="1805" height="295" key="GridCell.Tab.0.right" timestamp="1591501278488">
+      <screen x="0" y="0" width="1848" height="1080" />
     </state>
     <state width="1323" height="48" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591463239123" />
     <state width="1493" height="220" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1591436602326" />
+    <state width="1805" height="295" key="GridCell.Tab.0.right/0.0.1848.1080/1920.0.1858.1080@0.0.1848.1080" timestamp="1591501278488" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1591331118980">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\cavas\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\cavas\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Proyecto.-1780218187.00" t="ExcludeRecursive" />
-    <e p="C:\Users\cavas\Downloads\Proyecto\Proyecto" t="IncludeFlat">
+    <e p="C:\Users\Edu1\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Edu1\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Proyecto.-559813440.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Edu1\Desktop\ProyectoPOO\Ella-no-te-ama-v_Arkanoid\Proyecto" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="Proyecto" t="IncludeRecursive">
         <e p="App.config" t="Include" />
