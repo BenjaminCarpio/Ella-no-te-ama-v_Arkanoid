@@ -2,13 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e3ed65d-66a3-4418-bf42-483579497ffe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Proyecto/Controlador/ConnectionDB.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto/Controlador/PlayerDAO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto/Modelo/Player.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto/Vista/Menu.resx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/DatosJuego.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Modelo/DatosJuego.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Vista/Form1.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Vista/Form1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/Form1.resx" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Vista/Form1.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/Juego.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Vista/Juego.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/Juego.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Vista/Juego.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/Juego.resx" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Vista/Juego.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/Menu.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Vista/Menu.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Vista/Menu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/Menu.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Modelo/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/Proyecto.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Proyecto.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/Usuario.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Vista/Usuario.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/Usuario.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Vista/Usuario.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/Usuario.resx" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Vista/Usuario.resx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto/bin/Debug/Proyecto.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/bin/Debug/Proyecto.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/bin/Debug/Proyecto.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/bin/Debug/Proyecto.exe.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto/bin/Debug/Proyecto.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/bin/Debug/Proyecto.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.Menu.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.Menu.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.csproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.pdb" afterDir="false" />
     </list>
@@ -24,16 +45,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Proyecto/DatosJuego.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Proyecto/Menu.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Proyecto/Menu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Proyecto/Usuario.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Proyecto/Juego.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Proyecto/Juego.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Proyecto/Usuario.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Proyecto/Form1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Vista/Usuario.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Vista/Form1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Controlador/ConnectionDB.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Modelo/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Modelo/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Modelo/DatosJuego.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Controlador/PlayerDAO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Vista/Menu.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Vista/Menu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Vista/Usuario.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Proyecto/Modelo/CustomBlocks.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Proyecto/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Vista/Juego.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Vista/Juego.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -44,10 +68,13 @@
         <option value="$PROJECT_DIR$/Proyecto/Juego.Designer.cs" />
         <option value="$PROJECT_DIR$/Proyecto/DatosJuego.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Juego.cs" />
-        <option value="$PROJECT_DIR$/Proyecto/Menu.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Usuario.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Form1.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Program.cs" />
+        <option value="$PROJECT_DIR$/Proyecto/Menu.cs" />
+        <option value="$PROJECT_DIR$/Proyecto/Controlador/ConnectionDB.cs" />
+        <option value="$PROJECT_DIR$/Proyecto/Modelo/Player.cs" />
+        <option value="$PROJECT_DIR$/Proyecto/Controlador/PlayerDAO.cs" />
       </list>
     </option>
   </component>
@@ -110,6 +137,7 @@
       <workItem from="1591454046119" duration="4098000" />
       <workItem from="1591458711919" duration="4407000" />
       <workItem from="1591501154109" duration="125000" />
+      <workItem from="1592084783727" duration="4465000" />
     </task>
     <servers />
   </component>
@@ -118,31 +146,42 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1805" height="295" key="GridCell.Tab.0.bottom" timestamp="1591501278488">
+    <state width="1805" height="295" key="GridCell.Tab.0.bottom" timestamp="1592089251807">
       <screen x="0" y="0" width="1848" height="1080" />
     </state>
     <state width="1323" height="48" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591463239123" />
     <state width="1493" height="220" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1591436602326" />
-    <state width="1805" height="295" key="GridCell.Tab.0.bottom/0.0.1848.1080/1920.0.1858.1080@0.0.1848.1080" timestamp="1591501278488" />
-    <state width="1805" height="295" key="GridCell.Tab.0.center" timestamp="1591501278488">
+    <state width="1805" height="295" key="GridCell.Tab.0.bottom/0.0.1848.1080/1920.0.1858.1080@0.0.1848.1080" timestamp="1592089251807" />
+    <state width="1805" height="295" key="GridCell.Tab.0.center" timestamp="1592089251807">
       <screen x="0" y="0" width="1848" height="1080" />
     </state>
     <state width="1323" height="48" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591463239123" />
     <state width="1493" height="220" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1591436602326" />
-    <state width="1805" height="295" key="GridCell.Tab.0.center/0.0.1848.1080/1920.0.1858.1080@0.0.1848.1080" timestamp="1591501278488" />
-    <state width="1805" height="295" key="GridCell.Tab.0.left" timestamp="1591501278488">
+    <state width="1805" height="295" key="GridCell.Tab.0.center/0.0.1848.1080/1920.0.1858.1080@0.0.1848.1080" timestamp="1592089251807" />
+    <state width="1805" height="295" key="GridCell.Tab.0.left" timestamp="1592089251807">
       <screen x="0" y="0" width="1848" height="1080" />
     </state>
     <state width="1323" height="48" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591463239123" />
     <state width="1493" height="220" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1591436602326" />
-    <state width="1805" height="295" key="GridCell.Tab.0.left/0.0.1848.1080/1920.0.1858.1080@0.0.1848.1080" timestamp="1591501278488" />
-    <state width="1805" height="295" key="GridCell.Tab.0.right" timestamp="1591501278488">
+    <state width="1805" height="295" key="GridCell.Tab.0.left/0.0.1848.1080/1920.0.1858.1080@0.0.1848.1080" timestamp="1592089251807" />
+    <state width="1805" height="295" key="GridCell.Tab.0.right" timestamp="1592089251807">
       <screen x="0" y="0" width="1848" height="1080" />
     </state>
     <state width="1323" height="48" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591463239123" />
     <state width="1493" height="220" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1591436602326" />
-    <state width="1805" height="295" key="GridCell.Tab.0.right/0.0.1848.1080/1920.0.1858.1080@0.0.1848.1080" timestamp="1591501278488" />
+    <state width="1805" height="295" key="GridCell.Tab.0.right/0.0.1848.1080/1920.0.1858.1080@0.0.1848.1080" timestamp="1592089251807" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1591331118980">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

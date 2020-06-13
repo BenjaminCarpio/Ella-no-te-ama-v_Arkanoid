@@ -2,27 +2,24 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Edu1\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Edu1\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Proyecto.-559813440.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Edu1\Desktop\ProyectoPOO\Ella-no-te-ama-v_Arkanoid\Proyecto" t="IncludeFlat">
+    <e p="C:\Users\Edu1\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Proyecto.554733002.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Edu1\Desktop\ProyectoFinalPOO\Ella-no-te-ama-v_Arkanoid\Proyecto" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="Proyecto" t="IncludeRecursive">
         <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="DatosJuego.cs" t="Include" />
-        <e p="Form1.cs" t="Include" />
-        <e p="Form1.Designer.cs" t="Include" />
-        <e p="Form1.resx" t="Include" />
-        <e p="Juego.cs" t="Include" />
-        <e p="Juego.Designer.cs" t="Include" />
-        <e p="Juego.resx" t="Include" />
-        <e p="Menu.cs" t="Include" />
-        <e p="Menu.Designer.cs" t="Include" />
-        <e p="Menu.resx" t="Include" />
+        <e p="Controlador" t="Include">
+          <e p="ConnectionDB.cs" t="Include" />
+          <e p="PlayerDAO.cs" t="Include" />
+        </e>
         <e p="Modelo" t="Include">
           <e p="CustomBlocks.cs" t="Include" />
+          <e p="DatosJuego.cs" t="Include" />
+          <e p="Player.cs" t="Include" />
+          <e p="Program.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive" />
-        <e p="Program.cs" t="Include" />
+        <e p="packages.config" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
           <e p="Resources.Designer.cs" t="Include" />
@@ -31,9 +28,20 @@
           <e p="Settings.settings" t="Include" />
         </e>
         <e p="Proyecto.csproj" t="IncludeRecursive" />
-        <e p="Usuario.cs" t="Include" />
-        <e p="Usuario.Designer.cs" t="Include" />
-        <e p="Usuario.resx" t="Include" />
+        <e p="Vista" t="Include">
+          <e p="Form1.cs" t="Include" />
+          <e p="Form1.Designer.cs" t="Include" />
+          <e p="Form1.resx" t="Include" />
+          <e p="Juego.cs" t="Include" />
+          <e p="Juego.Designer.cs" t="Include" />
+          <e p="Juego.resx" t="Include" />
+          <e p="Menu.cs" t="Include" />
+          <e p="Menu.Designer.cs" t="Include" />
+          <e p="Menu.resx" t="Include" />
+          <e p="Usuario.cs" t="Include" />
+          <e p="Usuario.Designer.cs" t="Include" />
+          <e p="Usuario.resx" t="Include" />
+        </e>
       </e>
       <e p="Proyecto.sln" t="IncludeFlat" />
     </e>
