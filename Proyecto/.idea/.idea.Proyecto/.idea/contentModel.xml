@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Edu1\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Edu1\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Proyecto.554733002.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Edu1\Desktop\ProyectoFinalPOO\Ella-no-te-ama-v_Arkanoid\Proyecto" t="IncludeFlat">
+    <e p="C:\Users\Josue\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Josue\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Proyecto.1917901960.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Josue\Desktop\Ella-no-te-ama-v_Arkanoid\Proyecto" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="Proyecto" t="IncludeRecursive">
         <e p="App.config" t="Include" />
@@ -41,6 +41,9 @@
           <e p="Usuario.cs" t="Include" />
           <e p="Usuario.Designer.cs" t="Include" />
           <e p="Usuario.resx" t="Include" />
+          <e p="UsuarioJuego.cs" t="Include" />
+          <e p="UsuarioJuego.Designer.cs" t="Include" />
+          <e p="UsuarioJuego.resx" t="Include" />
         </e>
       </e>
       <e p="Proyecto.sln" t="IncludeFlat" />
