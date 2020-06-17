@@ -114,8 +114,8 @@ C:\Users\Josue\Desktop\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Pro
 C:\Users\Josue\Desktop\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.Juego.resources
 C:\Users\Josue\Desktop\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.Menu.resources
 C:\Users\Josue\Desktop\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.Usuario.resources
+C:\Users\Josue\Desktop\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.UsuarioJuego.resources
 C:\Users\Josue\Desktop\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
 C:\Users\Josue\Desktop\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CopyComplete
 C:\Users\Josue\Desktop\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.exe
 C:\Users\Josue\Desktop\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
-C:\Users\Josue\Desktop\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.UsuarioJuego.resources

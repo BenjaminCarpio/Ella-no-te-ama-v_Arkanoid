@@ -40,6 +40,7 @@ namespace Proyecto
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "UsuarioJuego";
             this.Size = new System.Drawing.Size(726, 639);
+            this.Load += new System.EventHandler(this.UsuarioJuego_Load);
             this.ResumeLayout(false);
         }
 

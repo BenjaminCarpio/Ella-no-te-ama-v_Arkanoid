@@ -27,10 +27,24 @@ namespace Proyecto
             WindowState = FormWindowState.Maximized;
             
         }
-
+        
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams handleParam = base.CreateParams;
+                handleParam.ExStyle |= 0x02000000;   // WS_EX_COMPOSITED       
+                return handleParam;
+            }
+        }
+        
         private void Juego_Load(object sender, EventArgs e)
         {
+            
             PanelPuntajes();
+            BackgroundImage = Image.FromFile("../../../Sprites/fondo.jpg");
+            BackgroundImageLayout = ImageLayout.Stretch;
+            
             player.BackgroundImage = Image.FromFile("../../../Sprites/Player.png");
             player.BackgroundImageLayout = ImageLayout.Stretch;
             player.Top = (Height - player.Height) - 80;
@@ -50,13 +64,13 @@ namespace Proyecto
         }
 
         private void SlabsCustoms()
-        {
+        {    
             int xAxis = 10;
             int yAxis = 5;
 
             int pbHeight = (int) (Height * 0.3) / yAxis;
             int pbWidth = (Width - (xAxis - 5)) / xAxis;
-
+    
             cpb = new CustomBlocks[yAxis, xAxis];
 
             for (int i = 0; i < yAxis; i++)
@@ -65,21 +79,33 @@ namespace Proyecto
                 {
                     cpb[i, j] = new CustomBlocks();
 
-                    if (i == 0)
+                    if (i == 4)
                         cpb[i, j].Hits = 2;
                     else
                         cpb[i, j].Hits = 1;
-
+                    
+                    //tamano
                     cpb[i, j].Height = pbHeight;
                     cpb[i, j].Width = pbWidth;
+                    
+                    //Posicion left  y posicion top
                     cpb[i, j].Left = j * pbWidth;
                     cpb[i, j].Top = i * pbHeight + Score.Height + 1;
-                    
                     cpb[i, j].BackgroundImage = Image.FromFile("../../../Sprites/" + GR() + ".png");
+                    
+                    if (i == 4)
+                    {    
+                        cpb[i, j].BackgroundImage = Image.FromFile("../../../Sprites/blinded.png");
+                        cpb[i, j].Tag = "blinded";
+                    }
+                    else
+                    {
+                        cpb[i, j].BackgroundImage = Image.FromFile("../../../Sprites/" + GR() + ".png");
+                        cpb[i, j].Tag = "tileTag";
+                    }
+
                     cpb[i, j].BackgroundImageLayout = ImageLayout.Stretch;
-
-                    cpb[i, j].Tag = "tiletag";
-
+                    
                     Controls.Add(cpb[i, j]);
                 }
             }
@@ -109,7 +135,7 @@ namespace Proyecto
 
 
         private void gameTimer_Tick(object sender, EventArgs e)
-        {
+        {    
             if (!DatosJuego.juegoIniciado)
                 return;
 
@@ -155,7 +181,7 @@ namespace Proyecto
             if (Ball.Left < 0 || Ball.Right > Width)
             {
                 DatosJuego.dirX = -DatosJuego.dirX;
-                return;
+                return; 
             }
 
             if (Ball.Bounds.IntersectsWith(player.Bounds))
@@ -177,15 +203,17 @@ namespace Proyecto
                             Controls.Remove(cpb[i, j]);
                             cpb[i, j] = null;
                         }
+                        else if (cpb[i, j].Tag.Equals("blinded"))
+                            cpb[i, j].BackgroundImage = Image.FromFile("../../../Sprites/broken.png");
 
                         DatosJuego.dirY = -DatosJuego.dirY;
 
                         Puntajes.Text = DatosJuego.puntajes.ToString();
                         return;
                     }
-                }
+                }    
             }
-        }
+        }     
 
         private void MoverPelota()
         {
