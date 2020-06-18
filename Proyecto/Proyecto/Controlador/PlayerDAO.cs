@@ -1,28 +1,49 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Windows.Forms;
 using Proyecto.Modelo;
 
 namespace Proyecto.Controlador
 {
     public class PlayerDAO
     {
-        public static List<Player> getDataPlayer()
+        public static List<Player> getPlayer()
         {
-            string sql = "Script para consultar la base"; //jeje
-
-            DataTable dt = ConnectionDB.ExecuteQuery(sql);
+            DataTable dt = null;
+            List<Player> listPlayer = new List<Player>();
             
-            List<Player> player1 = new List<Player>();
-            foreach (DataRow fila in dt.Rows)
+            try
             {
-                Player p1 = new Player();
-                p1.idPlayer = Convert.ToInt32(fila[0]);
-                p1.NickName = fila[1].ToString();
-                p1.Score = Convert.ToInt32(fila[2]); 
-                p1.MaxScore = Convert.ToInt32(fila[3]);
+                dt= ConnectionDB.ExecuteQuery("SELECT * FROM PLAYER");
             }
-            return player1;
-        }   
+            catch (Exception e)
+            {
+                MessageBox.Show("Ha ocurrido un error!");
+            }
+            
+            foreach (DataRow row in dt.Rows)
+            {
+                Player p = new Player();
+                p.nickname = row[0].ToString();
+                listPlayer.Add(p);
+            }
+            return listPlayer;
+        }
+
+        //Método que agrega un jugador a la base de datos
+        public static void insertPlayer(string player)
+        {
+            try
+            {
+                string query = $"INSERT INTO PLAYER(nickname) VALUES ('{player}')";
+                ConnectionDB.ExecuteNonQuery(query);
+                MessageBox.Show("Usuario registrado!");
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Ha ocurrido un error!");
+            }
+        }
     }
 }

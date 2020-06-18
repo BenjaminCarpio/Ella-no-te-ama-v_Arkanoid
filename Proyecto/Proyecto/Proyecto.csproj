@@ -90,10 +90,12 @@
     <ItemGroup>
         <Compile Include="Controlador\ConnectionDB.cs" />
         <Compile Include="Controlador\PlayerDAO.cs" />
+        <Compile Include="Controlador\RegistDAO.cs" />
         <Compile Include="Modelo\CustomBlocks.cs" />
         <Compile Include="Modelo\DatosJuego.cs" />
         <Compile Include="Modelo\Player.cs" />
         <Compile Include="Modelo\Program.cs" />
+        <Compile Include="Modelo\Regist.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="Vista\Form1.cs">
           <SubType>Form</SubType>

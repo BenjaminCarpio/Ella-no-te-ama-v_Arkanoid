@@ -35,7 +35,7 @@ namespace Proyecto
                 new System.ComponentModel.ComponentResourceManager(typeof(Usuario));
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNickname = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -66,15 +66,15 @@ namespace Proyecto
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox1
+            // txtNickname
             // 
-            this.textBox1.Font = new System.Drawing.Font("Sigmar One", 20.25F, System.Drawing.FontStyle.Regular,
+            this.txtNickname.Font = new System.Drawing.Font("Sigmar One", 20.25F, System.Drawing.FontStyle.Regular,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.textBox1.Location = new System.Drawing.Point(188, 216);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(300, 52);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtNickname.Location = new System.Drawing.Point(188, 216);
+            this.txtNickname.Name = "txtNickname";
+            this.txtNickname.Size = new System.Drawing.Size(300, 52);
+            this.txtNickname.TabIndex = 2;
+            this.txtNickname.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Usuario
             // 
@@ -82,12 +82,13 @@ namespace Proyecto
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(683, 436);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(682, 436);
+            this.Controls.Add(this.txtNickname);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "Usuario";
             this.Text = "Usuario";
+            this.Load += new System.EventHandler(this.Usuario_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
         }
@@ -96,6 +97,6 @@ namespace Proyecto
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNickname;
     }
 }

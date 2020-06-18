@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
+using Proyecto.Controlador;
+using Proyecto.Modelo;
+using Proyecto.Properties;
 
 namespace Proyecto
 {
@@ -20,7 +23,40 @@ namespace Proyecto
 
         private void UsuarioJuego_Load(object sender, EventArgs e)
         {
+            DoubleBuffered = true;
+            Dock = DockStyle.Fill;
+            labTop10.BackColor = Color.FromArgb(125, labTop10.BackColor);
+            labPlayers.BackColor = Color.FromArgb(125, labTop10.BackColor);
+            labScore.BackColor = Color.FromArgb(125, labTop10.BackColor);
+        }
+       private void BestPlayer()
+        {
+            labPlayers.Text = "\n  Players\n";
+            labScore.Text = "\nScore\n";
             
+            var PlayerList = RegistDAO.getNickName();
+            var ScoreList = RegistDAO.getScore();
+            
+            for (int i = 0; i < PlayerList.Count; i++)
+            {
+                switch (i)
+                {
+                    case 0:
+                        labPlayers.Text += $"{i + 1}" + PlayerList[i] + "\n";
+                        break;
+                    case 9:labPlayers.Text += $"{i + 1}" + PlayerList[i] + "\n";
+                            break;
+                    default: labPlayers.Text += $"{i + 1}  " + PlayerList[i] + "\n";
+                        break;
+                }
+                labScore.Text += ScoreList[i] + "\n";
+            }
+        }
+    
+        private void btnback_Click(object sender, EventArgs e)
+        {
+            Menu m = new Menu();
+            m.Show();
         }
     }
 }

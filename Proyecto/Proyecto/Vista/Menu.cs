@@ -47,11 +47,12 @@ namespace Proyecto
             Application.Exit();
         }
 
-       // private void button4_Click(object sender, EventArgs e)
-        //{
-          //  current=new UsuarioJuego();
-           // Controls.Add(current);
-        //}
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            current = new UsuarioJuego();
+            Controls.Add(current);
+        }
     }
 }
   
