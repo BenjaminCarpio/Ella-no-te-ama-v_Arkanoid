@@ -40,6 +40,7 @@ namespace Proyecto
         {
             Juego j= new Juego();
             j.Show();
+            
         }
     
         private void button3_Click(object sender, EventArgs e)//Close Program
@@ -50,8 +51,14 @@ namespace Proyecto
 
         private void button2_Click(object sender, EventArgs e)
         {
+            
+            button3.Hide();
+            button1.Hide();
+            button2.Hide();
             current = new UsuarioJuego();
             Controls.Add(current);
+            
+            
         }
     }
 }

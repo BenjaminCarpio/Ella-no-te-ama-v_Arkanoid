@@ -9,12 +9,14 @@
       <e p="Controlador" t="Include">
         <e p="ConnectionDB.cs" t="Include" />
         <e p="PlayerDAO.cs" t="Include" />
+        <e p="RegistDAO.cs" t="Include" />
       </e>
       <e p="Modelo" t="Include">
         <e p="CustomBlocks.cs" t="Include" />
         <e p="DatosJuego.cs" t="Include" />
         <e p="Player.cs" t="Include" />
         <e p="Program.cs" t="Include" />
+        <e p="Regist.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />

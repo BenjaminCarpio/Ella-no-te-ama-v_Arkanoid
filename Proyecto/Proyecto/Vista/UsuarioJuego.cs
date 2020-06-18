@@ -9,6 +9,8 @@ namespace Proyecto
 {
     public partial class UsuarioJuego : UserControl
     {
+        public delegate void OnClosedWindow();
+        public OnClosedWindow CloseAction;
         public UsuarioJuego()
         {
             InitializeComponent();
@@ -55,8 +57,9 @@ namespace Proyecto
     
         private void btnback_Click(object sender, EventArgs e)
         {
-            Menu m = new Menu();
-            m.Show();
+            Menu ventana = new Menu();
+            lbltop10.Hide();
+            ventana.Show();
         }
     }
 }
