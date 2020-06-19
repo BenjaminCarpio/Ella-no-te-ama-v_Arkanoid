@@ -20,22 +20,24 @@ namespace Proyecto
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (!txtNickname.Text.Equals(""))
+            if (txtNickname.Text.Equals(""))
             {
                 MessageBox.Show("No se pueden dejar campos vacios");
             }
             else
             {
-                try
-                {
-                    //falta hacer ...
+                PlayerDAO.insertPlayer(txtNickname.Text); //Se comprueba si existe o no el nickname en la base y se agrega si no existe
+                var ventana = new Menu();
+                ventana.Show();
+                this.Hide();
+            }
+        }
 
-                    MessageBox.Show("Usuario Registrado");
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Ha ocurrido un error");
-                }
+        private void txtNickname_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+              button1_Click((object)sender, (EventArgs)e);  
             }
         }
     }

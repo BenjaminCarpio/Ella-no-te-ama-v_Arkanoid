@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Drawing;
+using System.Linq;
 using System.Windows.Forms;
 using Proyecto.Controlador;
 using Proyecto.Modelo;
@@ -11,6 +12,7 @@ namespace Proyecto
     {
         public delegate void OnClosedWindow();
         public OnClosedWindow CloseAction;
+        private Label[,] players;
         public UsuarioJuego()
         {
             InitializeComponent();
@@ -25,41 +27,52 @@ namespace Proyecto
 
         private void UsuarioJuego_Load(object sender, EventArgs e)
         {
+            LoadTop10();
             DoubleBuffered = true;
             Dock = DockStyle.Fill;
-            labTop10.BackColor = Color.FromArgb(125, labTop10.BackColor);
-            labPlayers.BackColor = Color.FromArgb(125, labTop10.BackColor);
-            labScore.BackColor = Color.FromArgb(125, labTop10.BackColor);
+            LoadTop10();
         }
-       private void BestPlayer()
+
+        private void LoadTop10()
         {
-            labPlayers.Text = "\n  Players\n";
-            labScore.Text = "\nScore\n";
-            
-            var PlayerList = RegistDAO.getNickName();
-            var ScoreList = RegistDAO.getScore();
-            
-            for (int i = 0; i < PlayerList.Count; i++)
-            {
-                switch (i)
-                {
-                    case 0:
-                        labPlayers.Text += $"{i + 1}" + PlayerList[i] + "\n";
-                        break;
-                    case 9:labPlayers.Text += $"{i + 1}" + PlayerList[i] + "\n";
-                            break;
-                    default: labPlayers.Text += $"{i + 1}  " + PlayerList[i] + "\n";
-                        break;
-                }
-                labScore.Text += ScoreList[i] + "\n";
-            }
+            var toplist = RegistDAO.getScore();
+            Nick1lbl.Text = toplist[0].nickname;
+            label1sc.Text = toplist[0].score.ToString();
+
+            Nick2lbl.Text = toplist[1].nickname;
+            label2sc.Text = toplist[1].score.ToString();
+
+            Nick3lbl.Text = toplist[2].nickname;
+            label3sc.Text = toplist[2].score.ToString();
+
+            Nick4lbl.Text = toplist[3].nickname;
+            label4sc.Text = toplist[3].score.ToString();
+
+            Nick5lbl.Text = toplist[4].nickname;
+            label5sc.Text = toplist[4].score.ToString();
+
+            Nick6lbl.Text = toplist[5].nickname;
+            label6sc.Text = toplist[5].score.ToString();
+
+            Nick7lbl.Text = toplist[6].nickname;
+            label7sc.Text = toplist[6].score.ToString();
+
+            Nick8lbl.Text = toplist[7].nickname;
+            label8sc.Text = toplist[7].score.ToString();
+
+            Nick9lbl.Text = toplist[8].nickname;
+            label9sc.Text = toplist[8].score.ToString();
+
+            Nick10lbl.Text = toplist[9].nickname;
+            label10sc.Text = toplist[9].score.ToString();
         }
-    
+
         private void btnback_Click(object sender, EventArgs e)
         {
+            
             Menu ventana = new Menu();
-            lbltop10.Hide();
             ventana.Show();
+            lbltop10.Hide();          
         }
     }
 }

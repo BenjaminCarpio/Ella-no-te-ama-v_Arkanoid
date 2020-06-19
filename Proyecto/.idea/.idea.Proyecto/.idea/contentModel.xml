@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\cavas\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\cavas\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Proyecto.1117286324.00" t="ExcludeRecursive" />
-    <e p="C:\Users\cavas\Desktop\Ella-no-te-ama-v_Arkanoid\Proyecto" t="IncludeFlat">
+    <e p="C:\Users\Edu1\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Edu1\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Proyecto.554733002.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Edu1\Desktop\ProyectoFinalPOO\Ella-no-te-ama-v_Arkanoid\Proyecto" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="Proyecto" t="IncludeRecursive">
         <e p="App.config" t="Include" />
@@ -17,11 +17,11 @@
           <e p="CustomBlocks.cs" t="Include" />
           <e p="DatosJuego.cs" t="Include" />
           <e p="Player.cs" t="Include" />
-          <e p="Program.cs" t="Include" />
           <e p="Regist.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive" />
         <e p="packages.config" t="Include" />
+        <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
           <e p="Resources.Designer.cs" t="Include" />

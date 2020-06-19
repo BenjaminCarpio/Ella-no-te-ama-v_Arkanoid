@@ -41,7 +41,7 @@ namespace Proyecto
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Sigmar One", 36F, System.Drawing.FontStyle.Regular,
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(166, 81);
@@ -55,7 +55,7 @@ namespace Proyecto
             // 
             this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("button1.BackgroundImage")));
-            this.button1.Font = new System.Drawing.Font("Sigmar One", 12F, System.Drawing.FontStyle.Regular,
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(491, 377);
@@ -68,13 +68,14 @@ namespace Proyecto
             // 
             // txtNickname
             // 
-            this.txtNickname.Font = new System.Drawing.Font("Sigmar One", 20.25F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.txtNickname.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F,
+                System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.txtNickname.Location = new System.Drawing.Point(188, 216);
             this.txtNickname.Name = "txtNickname";
-            this.txtNickname.Size = new System.Drawing.Size(300, 52);
+            this.txtNickname.Size = new System.Drawing.Size(300, 38);
             this.txtNickname.TabIndex = 2;
             this.txtNickname.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtNickname.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtNickname_KeyDown);
             // 
             // Usuario
             // 
@@ -86,7 +87,9 @@ namespace Proyecto
             this.Controls.Add(this.txtNickname);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Usuario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Usuario";
             this.Load += new System.EventHandler(this.Usuario_Load);
             this.ResumeLayout(false);

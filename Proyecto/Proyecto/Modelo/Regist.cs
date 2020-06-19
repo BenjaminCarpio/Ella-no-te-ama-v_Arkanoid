@@ -7,11 +7,10 @@
         public int score { get; set; }
        
 
-        public Regist()
+        public Regist(string nick = "unnamed", int sc = 0)
         {
-            idScore = 1;
-            nickname = ""; 
-            score = 0;
+            nickname = nick; 
+            score = sc;
         }
     }
 }

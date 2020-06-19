@@ -61,6 +61,7 @@ namespace Proyecto
             this.ClientSize = new System.Drawing.Size(695, 477);
             this.Controls.Add(this.player);
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.MinimizeBox = false;
             this.Name = "Juego";
             this.Text = "Juego";
             this.Load += new System.EventHandler(this.Juego_Load);

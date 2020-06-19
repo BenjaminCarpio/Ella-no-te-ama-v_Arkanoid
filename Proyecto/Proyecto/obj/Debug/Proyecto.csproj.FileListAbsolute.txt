@@ -156,3 +156,4 @@ C:\Users\cavas\Desktop\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Pro
 C:\Users\cavas\Desktop\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CopyComplete
 C:\Users\cavas\Desktop\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.exe
 C:\Users\cavas\Desktop\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\Edu1\Desktop\ProyectoFinalPOO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.UsuarioJuego.resources

@@ -30,15 +30,21 @@ namespace Proyecto.Controlador
             }
             return listPlayer;
         }
-
+        
         //Método que agrega un jugador a la base de datos
         public static void insertPlayer(string player)
         {
             try
             {
-                string query = $"INSERT INTO PLAYER(nickname) VALUES ('{player}')";
-                ConnectionDB.ExecuteNonQuery(query);
-                MessageBox.Show("Usuario registrado!");
+                var dt = ConnectionDB.ExecuteQuery($"SELECT * FROM \"PLAYER\" WHERE nickname = '{player}'");
+                if (dt.Rows.Count > 0)
+                    MessageBox.Show($"Bienvenido nuevamente {player}");
+                else
+                {
+                    string query = $"INSERT INTO \"PLAYER\"(nickname) VALUES ('{player}')";
+                    ConnectionDB.ExecuteNonQuery(query);
+                    MessageBox.Show("Usuario registrado con exito, bienvenio!");
+                }
             }
             catch (Exception e)
             {

@@ -36,21 +36,22 @@ namespace Proyecto
             };
         }
 
-        private void button1_Click(object sender, EventArgs e)//Start game
+        private void button1_Click(object sender, EventArgs e)//Inicia el juego
         {
             Juego j= new Juego();
             j.Show();
             
         }
     
-        private void button3_Click(object sender, EventArgs e)//Close Program
+        private void button3_Click(object sender, EventArgs e)//Cierra la aplicacion de manera correcta cerrando todos los procesos.
         {
             Application.Exit();
         }
 
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e) //Boton Score, 
         {
+            
             
             button3.Hide();
             button1.Hide();
