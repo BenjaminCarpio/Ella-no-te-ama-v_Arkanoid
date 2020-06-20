@@ -2,27 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e3ed65d-66a3-4418-bf42-483579497ffe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/Controlador/ConnectionDB.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Controlador/ConnectionDB.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/Controlador/PlayerDAO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Controlador/PlayerDAO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/Controlador/RegistDAO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Controlador/RegistDAO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/Modelo/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/Modelo/Regist.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Modelo/Regist.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/Proyecto.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Proyecto.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto/Vista/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Vista/Form1.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto/Vista/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Vista/Form1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto/Vista/Juego.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Vista/Juego.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/Vista/Juego.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Vista/Juego.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto/Vista/Menu.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Vista/Menu.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto/Vista/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Vista/Menu.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto/Vista/Usuario.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Vista/Usuario.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto/Vista/Usuario.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Vista/Usuario.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/Vista/UsuarioJuego.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Vista/UsuarioJuego.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/Vista/Usuario.resx" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Vista/Usuario.resx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto/Vista/UsuarioJuego.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Vista/UsuarioJuego.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/Vista/UsuarioJuego.resx" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Vista/UsuarioJuego.resx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto/bin/Debug/Proyecto.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/bin/Debug/Proyecto.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto/bin/Debug/Proyecto.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/bin/Debug/Proyecto.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.Menu.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.Menu.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.Usuario.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.Usuario.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.csproj.GenerateResource.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.exe" afterDir="false" />
@@ -71,22 +65,22 @@
         <option value="$PROJECT_DIR$/Proyecto/Form1.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Menu.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Modelo/DatosJuego.cs" />
-        <option value="$PROJECT_DIR$/Proyecto/Vista/Juego.cs" />
-        <option value="$PROJECT_DIR$/Proyecto/Vista/Menu.Designer.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Modelo/Player.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Controlador/Score.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Controlador/ScoreDAO.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Modelo/Program.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Controlador/ConnectionDB.cs" />
-        <option value="$PROJECT_DIR$/Proyecto/Vista/Menu.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Program.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Controlador/PlayerDAO.cs" />
-        <option value="$PROJECT_DIR$/Proyecto/Vista/Form1.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Vista/UsuarioJuego.Designer.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Modelo/Regist.cs" />
-        <option value="$PROJECT_DIR$/Proyecto/Vista/UsuarioJuego.cs" />
-        <option value="$PROJECT_DIR$/Proyecto/Vista/Usuario.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Controlador/RegistDAO.cs" />
+        <option value="$PROJECT_DIR$/Proyecto/Vista/Juego.cs" />
+        <option value="$PROJECT_DIR$/Proyecto/Vista/Form1.cs" />
+        <option value="$PROJECT_DIR$/Proyecto/Vista/Usuario.cs" />
+        <option value="$PROJECT_DIR$/Proyecto/Vista/UsuarioJuego.cs" />
+        <option value="$PROJECT_DIR$/Proyecto/Vista/Menu.Designer.cs" />
+        <option value="$PROJECT_DIR$/Proyecto/Vista/Menu.cs" />
       </list>
     </option>
   </component>
@@ -155,6 +149,8 @@
       <workItem from="1592431267047" duration="7458000" />
       <workItem from="1592536758366" duration="6629000" />
       <workItem from="1592543428210" duration="8377000" />
+      <workItem from="1592617759929" duration="2438000" />
+      <workItem from="1592620655273" duration="6811000" />
     </task>
     <servers />
   </component>
@@ -177,30 +173,30 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1805" height="254" key="GridCell.Tab.0.bottom" timestamp="1592551812259">
+    <state width="1805" height="106" key="GridCell.Tab.0.bottom" timestamp="1592628123059">
       <screen x="0" y="0" width="1848" height="1080" />
     </state>
     <state width="1323" height="48" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592441851397" />
     <state width="1493" height="277" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1592349237887" />
-    <state width="1805" height="254" key="GridCell.Tab.0.bottom/0.0.1848.1080/1920.0.1858.1080@0.0.1848.1080" timestamp="1592551812259" />
-    <state width="1805" height="254" key="GridCell.Tab.0.center" timestamp="1592551812258">
+    <state width="1805" height="106" key="GridCell.Tab.0.bottom/0.0.1848.1080/1920.0.1858.1080@0.0.1848.1080" timestamp="1592628123059" />
+    <state width="1805" height="106" key="GridCell.Tab.0.center" timestamp="1592628123059">
       <screen x="0" y="0" width="1848" height="1080" />
     </state>
     <state width="1323" height="48" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592441851397" />
     <state width="1493" height="277" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1592349237887" />
-    <state width="1805" height="254" key="GridCell.Tab.0.center/0.0.1848.1080/1920.0.1858.1080@0.0.1848.1080" timestamp="1592551812258" />
-    <state width="1805" height="254" key="GridCell.Tab.0.left" timestamp="1592551812258">
+    <state width="1805" height="106" key="GridCell.Tab.0.center/0.0.1848.1080/1920.0.1858.1080@0.0.1848.1080" timestamp="1592628123059" />
+    <state width="1805" height="106" key="GridCell.Tab.0.left" timestamp="1592628123059">
       <screen x="0" y="0" width="1848" height="1080" />
     </state>
     <state width="1323" height="48" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592441851397" />
     <state width="1493" height="277" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1592349237886" />
-    <state width="1805" height="254" key="GridCell.Tab.0.left/0.0.1848.1080/1920.0.1858.1080@0.0.1848.1080" timestamp="1592551812258" />
-    <state width="1805" height="254" key="GridCell.Tab.0.right" timestamp="1592551812258">
+    <state width="1805" height="106" key="GridCell.Tab.0.left/0.0.1848.1080/1920.0.1858.1080@0.0.1848.1080" timestamp="1592628123059" />
+    <state width="1805" height="106" key="GridCell.Tab.0.right" timestamp="1592628123059">
       <screen x="0" y="0" width="1848" height="1080" />
     </state>
     <state width="1323" height="48" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592441851397" />
     <state width="1493" height="277" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1592349237887" />
-    <state width="1805" height="254" key="GridCell.Tab.0.right/0.0.1848.1080/1920.0.1858.1080@0.0.1848.1080" timestamp="1592551812258" />
+    <state width="1805" height="106" key="GridCell.Tab.0.right/0.0.1848.1080/1920.0.1858.1080@0.0.1848.1080" timestamp="1592628123059" />
     <state width="1805" height="254" key="GridCell.Tab.1.bottom" timestamp="1592551812259">
       <screen x="0" y="0" width="1848" height="1080" />
     </state>

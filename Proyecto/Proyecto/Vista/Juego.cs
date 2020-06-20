@@ -320,5 +320,12 @@ namespace Proyecto
             Score.Controls.Remove(Corazones[DatosJuego.vidas]);
             Corazones[DatosJuego.vidas] = null;
         }
+
+        private void Juego_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Dispose();
+            Menu ventana = new Menu();
+            ventana.Show();
+        }
     }
 }

@@ -64,6 +64,7 @@ namespace Proyecto
             this.MinimizeBox = false;
             this.Name = "Juego";
             this.Text = "Juego";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Juego_FormClosed);
             this.Load += new System.EventHandler(this.Juego_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Juego_KeyDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Juego_MouseMove);

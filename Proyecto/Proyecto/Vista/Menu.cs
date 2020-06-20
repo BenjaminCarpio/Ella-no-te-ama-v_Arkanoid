@@ -16,7 +16,6 @@ namespace Proyecto
 
         private void Menu_Load_1(object sender, EventArgs e)
         {
-            
             ca = new Juego();
 
             ca.Dock = DockStyle.Fill;
@@ -38,6 +37,7 @@ namespace Proyecto
 
         private void button1_Click(object sender, EventArgs e)//Inicia el juego
         {
+            this.Close();
             Juego j= new Juego();
             j.Show();
             
@@ -51,11 +51,10 @@ namespace Proyecto
 
         private void button2_Click(object sender, EventArgs e) //Boton Score, 
         {
-            
-            
             button3.Hide();
             button1.Hide();
             button2.Hide();
+            tableLayoutPanel1.Hide();
             current = new UsuarioJuego();
             Controls.Add(current);
             

@@ -40,5 +40,10 @@ namespace Proyecto
               button1_Click((object)sender, (EventArgs)e);  
             }
         }
+
+        private void Usuario_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

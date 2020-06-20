@@ -23,5 +23,10 @@ namespace Proyecto
             u.Show();
             this.Hide();
         }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -69,10 +69,15 @@ namespace Proyecto
 
         private void btnback_Click(object sender, EventArgs e)
         {
+             Form temp = this.FindForm(); //Este form temporal es para evitar el error que al regresar al menu desde el puntaje
+                                        //se duplicaba entonces se iguala el temporal al form actual y se cierra con todos sus procesos
+             temp.Close();
+             temp.Dispose();
+             //((Form)this.TopLevelControl).Close();    //esta es otra manera de solucionar el problema anterior mencionado
             
             Menu ventana = new Menu();
             ventana.Show();
-            lbltop10.Hide();          
+            lbltop10.Hide();
         }
     }
 }
