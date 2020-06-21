@@ -15,6 +15,12 @@ namespace Proyecto
         public Form1()
         {
             InitializeComponent();
+            Height = ClientSize.Height;
+            Width = ClientSize.Width;
+            WindowState = FormWindowState.Maximized;
+            pictureBox1.Image = Image.FromFile("../../../Sprites/Start.gif");
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+ 
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -28,5 +34,7 @@ namespace Proyecto
         {
             Application.Exit();
         }
+
+
     }
 }

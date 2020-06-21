@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
+using Proyecto.Controlador;
+using Proyecto.Modelo;
 
 namespace Proyecto
 {
@@ -8,38 +10,44 @@ namespace Proyecto
     {
         private UserControl current = null;
         private Juego ca;
+        private Player _player;
+        
         public Menu()
         {
             InitializeComponent();
             current=new UserControl();
+            Height = ClientSize.Height;
+            Width = ClientSize.Width;
+            WindowState = FormWindowState.Maximized;
         }
 
         private void Menu_Load_1(object sender, EventArgs e)
         {
-            ca = new Juego();
-
-            ca.Dock = DockStyle.Fill;
-
-            ca.Width = Width;
-            ca.Height = Height;
-
-            ca.TerminarJuego = () =>
-            {
-                ca = null;
-                ca = new Juego();
-
-                MessageBox.Show("Has perdido");
-
-                ca.Hide();
-                new Menu();
-            };
+            
         }
 
         private void button1_Click(object sender, EventArgs e)//Inicia el juego
         {
-            this.Close();
-            Juego j= new Juego();
-            j.Show();
+            DatosJuego.InicializarJuego();
+            
+            ca=new Juego();
+            ca.Show();
+            
+            ca.TerminarJuego = () =>
+            {
+                MessageBox.Show("Has Perdido :(!"+ "Tu puntaje es: " + DatosJuego.puntajes);
+                ca.Hide();
+                Menu a = new Menu();
+                a.Show();
+            };
+            
+            ca.WinningGame = () =>
+            {
+                MessageBox.Show("Has ganado!"+ "Tu puntaje es: " + DatosJuego.puntajes);
+                ca.Hide();
+                Menu a = new Menu();
+                a.Show();
+            };
             
         }
     

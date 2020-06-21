@@ -2,6 +2,7 @@
 using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Windows.Forms;
+using Proyecto.Controlador;
 using Proyecto.Modelo;
 
 namespace Proyecto
@@ -13,11 +14,14 @@ namespace Proyecto
 
         private Label vidasRestantes, Puntajes;
         private Panel Score;
+        
+        private double tiempoTranscurido = 0, tiempoLimite = 4;
+        private int remainingPb = 0;
 
         private PictureBox Corazon;
         private PictureBox[] Corazones;
 
-        public Action TerminarJuego;
+        public Action TerminarJuego,WinningGame;
 
         public Juego()
         {
@@ -60,13 +64,14 @@ namespace Proyecto
             Controls.Add(Ball);
             
             SlabsCustoms();
-            gameTimer.Start();
+            //gameTimer.Start();
         }
 
         private void SlabsCustoms()
         {    
             int xAxis = 10;
             int yAxis = 5;
+            remainingPb = xAxis * yAxis;
 
             int pbHeight = (int) (Height * 0.3) / yAxis;
             int pbWidth = (Width - (xAxis - 5)) / xAxis;
@@ -91,7 +96,18 @@ namespace Proyecto
                     //Posicion left  y posicion top
                     cpb[i, j].Left = j * pbWidth;
                     cpb[i, j].Top = i * pbHeight + Score.Height + 1;
-                    cpb[i, j].BackgroundImage = Image.FromFile("../../../Sprites/" + GR() + ".png");
+                    //cpb[i, j].BackgroundImage = Image.FromFile("../../../Sprites/" + GR() + ".png");
+                    
+                    
+                    int imageBack;
+                    if (i % 2 == 1 && j % 2 != 1 )
+                        imageBack = 4;
+                    else if (i % 2 == 1 && j % 3 != 0)
+                        imageBack = 3;
+                    else if (i % 2 == 1 && j % 2 != 0)
+                        imageBack = 3;
+                    else
+                        imageBack = 6;
                     
                     if (i == 4)
                     {    
@@ -100,7 +116,7 @@ namespace Proyecto
                     }
                     else
                     {
-                        cpb[i, j].BackgroundImage = Image.FromFile("../../../Sprites/" + GR() + ".png");
+                        cpb[i, j].BackgroundImage = Image.FromFile("../../../Sprites/" + imageBack + ".png");
                         cpb[i, j].Tag = "tileTag";
                     }
 
@@ -114,7 +130,7 @@ namespace Proyecto
         private int GR()
         {
             return new Random().Next(1, 8);
-        }
+            }
 
         private void Juego_MouseMove(object sender, MouseEventArgs e)
         {
@@ -138,15 +154,38 @@ namespace Proyecto
         {    
             if (!DatosJuego.juegoIniciado)
                 return;
-
-            DatosJuego.ticksRealizados += 0.1;
             
-            Ball.Left += DatosJuego.dirX;
-            Ball.Top += DatosJuego.dirY;
-
-            rebotarPelota();
+            try
+            {
+                   rebotarPelota(); 
+                   DatosJuego.ticksRealizados += 0.01;
+                   Ball.Left += DatosJuego.dirX;
+                   Ball.Top += DatosJuego.dirY;
+            }
+            catch (NoBoundExceptio exception)
+            {
+                try
+                {
+                    DatosJuego.vidas--;
+                    DatosJuego.juegoIniciado = false;
+                    gameTimer.Stop();
+                    
+                    ReposicionarElementos();
+                    ActualizarElementos();
+                   
+                   if(DatosJuego.vidas == 0)
+                   {
+                       throw new NoMoreLifesException("");
+                   }
+                }
+                catch (NoMoreLifesException e1)
+                {
+                   gameTimer.Stop();
+                   TerminarJuego?.Invoke();
+                }
+            }
         }
-
+    
         private void Juego_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Space)
@@ -158,7 +197,7 @@ namespace Proyecto
 
         private void rebotarPelota()
         {
-            if (Ball.Top < 0)
+            if (Ball.Top < Score.Height)
                 DatosJuego.dirY = -DatosJuego.dirY;
 
             if (Ball.Bottom > Height)
@@ -175,7 +214,6 @@ namespace Proyecto
                     gameTimer.Stop();
                     TerminarJuego?.Invoke();
                 }
-
             }
 
             if (Ball.Left < 0 || Ball.Right > Width)
@@ -195,24 +233,40 @@ namespace Proyecto
                 {    
                     if (cpb[i, j] != null && Ball.Bounds.IntersectsWith(cpb[i, j].Bounds))
                     {
-                        DatosJuego.puntajes += (int) (cpb[i, j].Hits * DatosJuego.ticksRealizados);
-                        cpb[i, j].Hits--;
-
+                        if (cpb[i, j] != null && i == 4)
+                        {
+                            DatosJuego.puntajes += cpb[i, j].Hits;
+                            cpb[i, j].Hits--;
+                        }else
+                        {
+                            DatosJuego.puntajes += (int) (cpb[i, j].Hits * DatosJuego.ticksRealizados);
+                             cpb[i, j].Hits--;
+                        }
+                        
                         if (cpb[i, j].Hits == 0)
                         {
                             Controls.Remove(cpb[i, j]);
                             cpb[i, j] = null;
+
+                            remainingPb--;    
+
                         }
                         else if (cpb[i, j].Tag.Equals("blinded"))
                             cpb[i, j].BackgroundImage = Image.FromFile("../../../Sprites/broken.png");
 
                         DatosJuego.dirY = -DatosJuego.dirY;
-
                         Puntajes.Text = DatosJuego.puntajes.ToString();
+
+                        if (remainingPb == 0)
+                        {
+                            DatosJuego.puntajes = DatosJuego.puntajes * DatosJuego.vidas ;
+                            WinningGame?.Invoke();
+                        }
+
                         return;
                     }
                 }    
-            }
+            }    
         }     
 
         private void MoverPelota()
@@ -290,7 +344,7 @@ namespace Proyecto
             vidasRestantes.TextAlign = Puntajes.TextAlign = ContentAlignment.MiddleCenter;
 
             vidasRestantes.Left = Corazon.Right + 5;
-            Puntajes.Left = Width - 100;
+            Puntajes.Left = Width - 150;
 
             vidasRestantes.Height = Puntajes.Height = Score.Height;
 

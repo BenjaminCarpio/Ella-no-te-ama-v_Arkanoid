@@ -46,21 +46,21 @@ namespace Proyecto
             // 
             this.player.BackColor = System.Drawing.Color.Transparent;
             this.player.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.player.Location = new System.Drawing.Point(280, 419);
-            this.player.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.player.Location = new System.Drawing.Point(320, 559);
+            this.player.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.player.Name = "player";
-            this.player.Size = new System.Drawing.Size(110, 46);
+            this.player.Size = new System.Drawing.Size(126, 61);
             this.player.TabIndex = 0;
             this.player.TabStop = false;
             // 
             // Juego
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(695, 477);
+            this.ClientSize = new System.Drawing.Size(794, 636);
             this.Controls.Add(this.player);
-            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
             this.MinimizeBox = false;
             this.Name = "Juego";
             this.Text = "Juego";

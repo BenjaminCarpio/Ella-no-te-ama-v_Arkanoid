@@ -30,6 +30,8 @@ namespace Proyecto.Controlador
             }
             return listPlayer;
         }
+
+
         
         //Método que agrega un jugador a la base de datos
         public static void insertPlayer(string player)

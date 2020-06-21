@@ -8,6 +8,8 @@
       <e p="bin" t="ExcludeRecursive" />
       <e p="Controlador" t="Include">
         <e p="ConnectionDB.cs" t="Include" />
+        <e p="NoBoundExceptio.cs" t="Include" />
+        <e p="NoMoreLifesException.cs" t="Include" />
         <e p="PlayerDAO.cs" t="Include" />
         <e p="RegistDAO.cs" t="Include" />
       </e>
@@ -15,12 +17,12 @@
         <e p="CustomBlocks.cs" t="Include" />
         <e p="DatosJuego.cs" t="Include" />
         <e p="Player.cs" t="Include" />
-        <e p="Program.cs" t="Include" />
         <e p="Regist.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="packages.config" t="Include" />
+      <e p="Program.cs" t="Include" />
       <e p="Properties" t="Include">
         <e p="AssemblyInfo.cs" t="Include" />
         <e p="Resources.Designer.cs" t="Include" />

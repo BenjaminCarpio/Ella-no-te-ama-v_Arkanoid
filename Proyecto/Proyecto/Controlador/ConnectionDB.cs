@@ -6,9 +6,9 @@ namespace Proyecto.Controlador
     public class ConnectionDB
     {
         private static string host = "localhost",
-            database = "Arkanoid",
+            database = "ProyectoPOO",
             userID = "postgres",
-            pasword = "1234";
+            pasword = "1234505";
         
         private static string sConecction =
             $"Server={host};Port=5432;User Id={userID};Password={pasword};Database={database};";

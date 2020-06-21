@@ -89,6 +89,8 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Controlador\ConnectionDB.cs" />
+        <Compile Include="Controlador\NoBoundExceptio.cs" />
+        <Compile Include="Controlador\NoMoreLifesException.cs" />
         <Compile Include="Controlador\PlayerDAO.cs" />
         <Compile Include="Controlador\RegistDAO.cs" />
         <Compile Include="Modelo\CustomBlocks.cs" />

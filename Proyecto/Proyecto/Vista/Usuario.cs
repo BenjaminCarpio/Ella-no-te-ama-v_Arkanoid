@@ -12,6 +12,9 @@ namespace Proyecto
             InitializeComponent();
             this.DoubleBuffered = true;
             this.Dock = DockStyle.Fill;
+            Height = ClientSize.Height;
+            Width = ClientSize.Width;
+            WindowState = FormWindowState.Maximized;
         }
          private void Usuario_Load(object sender, EventArgs e)
                 {

@@ -8,6 +8,7 @@
         public static void InicializarJuego()
         {
             juegoIniciado = false;
+            ticksRealizados = 0;
             vidas = 3;
             puntajes = 0;
         }
