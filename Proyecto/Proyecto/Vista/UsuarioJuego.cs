@@ -35,36 +35,45 @@ namespace Proyecto
 
         private void LoadTop10()
         {
-            var toplist = RegistDAO.getScore();
-            Nick1lbl.Text = toplist[0].nickname;
-            label1sc.Text = toplist[0].score.ToString();
+            try
+            {
+                var toplist = RegistDAO.getScore();
 
-            Nick2lbl.Text = toplist[1].nickname;
-            label2sc.Text = toplist[1].score.ToString();
+                Nick1lbl.Text = toplist[0].nickname;
+                label1sc.Text = toplist[0].score.ToString();
 
-            Nick3lbl.Text = toplist[2].nickname;
-            label3sc.Text = toplist[2].score.ToString();
+                Nick2lbl.Text = toplist[1].nickname;
+                label2sc.Text = toplist[1].score.ToString();
 
-            Nick4lbl.Text = toplist[3].nickname;
-            label4sc.Text = toplist[3].score.ToString();
+                Nick3lbl.Text = toplist[2].nickname;
+                label3sc.Text = toplist[2].score.ToString();
 
-            Nick5lbl.Text = toplist[4].nickname;
-            label5sc.Text = toplist[4].score.ToString();
+                Nick4lbl.Text = toplist[3].nickname;
+                label4sc.Text = toplist[3].score.ToString();
 
-            Nick6lbl.Text = toplist[5].nickname;
-            label6sc.Text = toplist[5].score.ToString();
+                Nick5lbl.Text = toplist[4].nickname;
+                label5sc.Text = toplist[4].score.ToString();
 
-            Nick7lbl.Text = toplist[6].nickname;
-            label7sc.Text = toplist[6].score.ToString();
+                Nick6lbl.Text = toplist[5].nickname;
+                label6sc.Text = toplist[5].score.ToString();
 
-            Nick8lbl.Text = toplist[7].nickname;
-            label8sc.Text = toplist[7].score.ToString();
+                Nick7lbl.Text = toplist[6].nickname;
+                label7sc.Text = toplist[6].score.ToString();
 
-            Nick9lbl.Text = toplist[8].nickname;
-            label9sc.Text = toplist[8].score.ToString();
+                Nick8lbl.Text = toplist[7].nickname;
+                label8sc.Text = toplist[7].score.ToString();
 
-            Nick10lbl.Text = toplist[9].nickname;
-            label10sc.Text = toplist[9].score.ToString();
+                Nick9lbl.Text = toplist[8].nickname;
+                label9sc.Text = toplist[8].score.ToString();
+
+                Nick10lbl.Text = toplist[9].nickname;
+                label10sc.Text = toplist[9].score.ToString();
+            }
+            catch (ArgumentOutOfRangeException e)
+            {
+                MessageBox.Show("El top 10 está incompleto, rellenando campos vacios con NULL");
+            }
+            
         }
 
         private void btnback_Click(object sender, EventArgs e)
@@ -76,6 +85,7 @@ namespace Proyecto
              //((Form)this.TopLevelControl).Close();    //esta es otra manera de solucionar el problema anterior mencionado
             
             Menu ventana = new Menu();
+            ventana.playername = Usuario.GlobalNickname;
             ventana.Show();
             lbltop10.Hide();
         }

@@ -7,6 +7,7 @@ namespace Proyecto
 {
     public partial class Usuario : Form
     {
+        public static string GlobalNickname;
         public Usuario()
         {
             InitializeComponent();
@@ -19,20 +20,30 @@ namespace Proyecto
          private void Usuario_Load(object sender, EventArgs e)
                 {
                     ActiveControl = txtNickname;
+                    
                 }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (txtNickname.Text.Equals(""))
+            try
             {
+                if (txtNickname.Text.Equals(""))
+                {
                 MessageBox.Show("No se pueden dejar campos vacios");
-            }
-            else
-            {
+                }
+                else
+                {
+                if(txtNickname.Text.Length > 20)
+                    throw new NicknameExceedMaxLength("");
                 PlayerDAO.insertPlayer(txtNickname.Text); //Se comprueba si existe o no el nickname en la base y se agrega si no existe
+                GlobalNickname = txtNickname.Text;
                 var ventana = new Menu();
+                ventana.playername = txtNickname.Text;
                 ventana.Show();
                 this.Hide();
+                }
+            }catch (NicknameExceedMaxLength exce){
+            MessageBox.Show("Has superado el maximo de caracteres disponible, intente nuevamente con menos de 20 caracteres");
             }
         }
 

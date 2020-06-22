@@ -11,6 +11,7 @@ namespace Proyecto
         private UserControl current = null;
         private Juego ca;
         private Player _player;
+        public string playername;
         
         public Menu()
         {
@@ -28,6 +29,9 @@ namespace Proyecto
 
         private void button1_Click(object sender, EventArgs e)//Inicia el juego
         {
+            //La linea de abajo cierra el menu ya que al terminar el juego se vuelve a abrir el menu 
+            //y se evita que este se duplique 
+            ((Form)this.TopLevelControl).Close();
             DatosJuego.InicializarJuego();
             
             ca=new Juego();
@@ -35,17 +39,22 @@ namespace Proyecto
             
             ca.TerminarJuego = () =>
             {
+                //En caso de desear agregar al registro el puntaje aun cuando se pierde, quitar el comentario de la linea siguiente
+                //RegistDAO.insertRegis(playername, DatosJuego.puntajes);
                 MessageBox.Show("Has Perdido :(!"+ "Tu puntaje es: " + DatosJuego.puntajes);
                 ca.Hide();
                 Menu a = new Menu();
+                a.playername = Usuario.GlobalNickname;
                 a.Show();
             };
             
             ca.WinningGame = () =>
             {
+                RegistDAO.insertRegis(playername, DatosJuego.puntajes);
                 MessageBox.Show("Has ganado!"+ "Tu puntaje es: " + DatosJuego.puntajes);
                 ca.Hide();
                 Menu a = new Menu();
+                a.playername = Usuario.GlobalNickname;
                 a.Show();
             };
             

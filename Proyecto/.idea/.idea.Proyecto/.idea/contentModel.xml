@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Edu1\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Edu1\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Proyecto.554733002.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Edu1\Desktop\ProyectoFinalPOO\Ella-no-te-ama-v_Arkanoid\Proyecto" t="IncludeFlat">
+    <e p="C:\Users\Benjamin\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Benjamin\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Proyecto.-1462683905.00" t="ExcludeRecursive" />
+    <e p="E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="Proyecto" t="IncludeRecursive">
         <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controlador" t="Include">
           <e p="ConnectionDB.cs" t="Include" />
+          <e p="DatosJuego.cs" t="Include" />
+          <e p="NicknameExceedMaxLength.cs" t="Include" />
+          <e p="NoBoundException.cs" t="Include" />
+          <e p="NoMoreLifesException.cs" t="Include" />
           <e p="PlayerDAO.cs" t="Include" />
           <e p="RegistDAO.cs" t="Include" />
+          <e p="WrongStartKey.cs" t="Include" />
         </e>
         <e p="Modelo" t="Include">
           <e p="CustomBlocks.cs" t="Include" />
-          <e p="DatosJuego.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="Regist.cs" t="Include" />
         </e>

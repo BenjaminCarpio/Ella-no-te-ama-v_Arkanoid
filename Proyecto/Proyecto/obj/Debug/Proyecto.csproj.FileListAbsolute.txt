@@ -157,3 +157,39 @@ C:\Users\Josue\Desktop\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Pro
 C:\Users\Josue\Desktop\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CopyComplete
 C:\Users\Josue\Desktop\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.exe
 C:\Users\Josue\Desktop\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\bin\Debug\Npgsql.dll
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\bin\Debug\System.Buffers.dll
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\bin\Debug\System.Memory.dll
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\bin\Debug\System.Numerics.Vectors.dll
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\bin\Debug\System.Text.Encodings.Web.dll
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\bin\Debug\System.Text.Json.dll
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\bin\Debug\System.ValueTuple.dll
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\bin\Debug\Npgsql.pdb
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\bin\Debug\Npgsql.xml
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\bin\Debug\System.Buffers.xml
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\bin\Debug\System.Memory.xml
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\bin\Debug\System.Numerics.Vectors.xml
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\bin\Debug\System.Text.Encodings.Web.xml
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\bin\Debug\System.Text.Json.xml
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\bin\Debug\System.ValueTuple.xml
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.csprojAssemblyReference.cache
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.exe.config
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.Form1.resources
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.Juego.resources
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.Menu.resources
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.Usuario.resources
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.UsuarioJuego.resources
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CopyComplete
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+E:\Users\Benjamin\Desktop\Proyecto Final POO\Ella-no-te-ama-v_Arkanoid\Proyecto\Proyecto\obj\Debug\Proyecto.pdb

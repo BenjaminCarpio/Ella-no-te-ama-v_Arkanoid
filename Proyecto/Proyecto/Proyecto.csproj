@@ -89,12 +89,14 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Controlador\ConnectionDB.cs" />
-        <Compile Include="Controlador\NoBoundExceptio.cs" />
+        <Compile Include="Controlador\DatosJuego.cs" />
+        <Compile Include="Controlador\NicknameExceedMaxLength.cs" />
+        <Compile Include="Controlador\NoBoundException.cs" />
         <Compile Include="Controlador\NoMoreLifesException.cs" />
         <Compile Include="Controlador\PlayerDAO.cs" />
         <Compile Include="Controlador\RegistDAO.cs" />
+        <Compile Include="Controlador\WrongStartKey.cs" />
         <Compile Include="Modelo\CustomBlocks.cs" />
-        <Compile Include="Modelo\DatosJuego.cs" />
         <Compile Include="Modelo\Player.cs" />
         <Compile Include="Modelo\Regist.cs" />
         <Compile Include="Program.cs" />

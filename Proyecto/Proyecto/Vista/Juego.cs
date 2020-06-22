@@ -162,7 +162,7 @@ namespace Proyecto
                    Ball.Left += DatosJuego.dirX;
                    Ball.Top += DatosJuego.dirY;
             }
-            catch (NoBoundExceptio exception)
+            catch (NoBoundException exception)
             {
                 try
                 {
@@ -188,11 +188,16 @@ namespace Proyecto
     
         private void Juego_KeyDown(object sender, KeyEventArgs e)
         {
+            try{
             if (e.KeyCode == Keys.Space)
             {
                 DatosJuego.juegoIniciado = true;
                 gameTimer.Start();
-            }
+            }else
+                throw new WrongStartKey("");
+                }catch(WrongStartKey exceptionName){
+                MessageBox.Show("No presione otras teclas, presione espacio para continuar.");
+                }
         }
 
         private void rebotarPelota()
@@ -260,6 +265,11 @@ namespace Proyecto
                         if (remainingPb == 0)
                         {
                             DatosJuego.puntajes = DatosJuego.puntajes * DatosJuego.vidas ;
+                            //El if que suma una vida se agrega porque la pelota sigue rebotando al destruir el ultimo bloque
+                            //entonces esto evita que se pierda el juego
+                           ReposicionarElementos();
+                           gameTimer.Stop();
+                           
                             WinningGame?.Invoke();
                         }
 
@@ -379,6 +389,7 @@ namespace Proyecto
         {
             this.Dispose();
             Menu ventana = new Menu();
+            ventana.playername = Usuario.GlobalNickname;
             ventana.Show();
         }
     }

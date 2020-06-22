@@ -24,9 +24,22 @@ namespace Proyecto.Controlador
             }
             catch (Exception e)
             {
-                MessageBox.Show("Ha ocurrido un error! es esto");
+                MessageBox.Show("Ha ocurrido un error!");
             }
             return listScore;
+        }
+        
+        public static void insertRegis(string player, int score)
+        {
+            try
+            {
+                    string query = $"INSERT INTO \"REGIS\"(nickname, score) VALUES ('{player}', {score})";
+                    ConnectionDB.ExecuteNonQuery(query);
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Ha ocurrido un error! si es esta cosa del insert");
+            }
         }
     }
 }

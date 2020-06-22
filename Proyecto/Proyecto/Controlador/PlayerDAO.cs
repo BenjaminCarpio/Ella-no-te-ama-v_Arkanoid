@@ -45,12 +45,12 @@ namespace Proyecto.Controlador
                 {
                     string query = $"INSERT INTO \"PLAYER\"(nickname) VALUES ('{player}')";
                     ConnectionDB.ExecuteNonQuery(query);
-                    MessageBox.Show("Usuario registrado con exito, bienvenio!");
+                    MessageBox.Show("Usuario registrado con exito, bienvenido!");
                 }
             }
             catch (Exception e)
             {
-                MessageBox.Show("Ha ocurrido un error!");
+                MessageBox.Show("No se encuentra ninguna base disponible, ingresando al modo offline!");
             }
         }
     }
