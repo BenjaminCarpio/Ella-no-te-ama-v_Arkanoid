@@ -28,26 +28,29 @@ namespace Proyecto
 
         private void button1_Click(object sender, EventArgs e)
         {
-            try
-            {
-                if (txtNickname.Text.Equals(""))
+                try
                 {
-                MessageBox.Show("No se pueden dejar campos vacios");
-                }
-                else
-                {
+                 if (txtNickname.Text.Equals(""))
+                 throw  new EmptyNicknameException("");
+                     
                 if(txtNickname.Text.Length > 20)
                     throw new NicknameExceedMaxLength("");
+                    
                 PlayerDAO.insertPlayer(txtNickname.Text); //Se comprueba si existe o no el nickname en la base y se agrega si no existe
                 GlobalNickname = txtNickname.Text;
                 var ventana = new Menu();
                 ventana.playername = txtNickname.Text;
                 ventana.Show();
-                this.Hide();
+                
                 }
-            }catch (NicknameExceedMaxLength exce){
-            MessageBox.Show("Has superado el maximo de caracteres disponible, intente nuevamente con menos de 20 caracteres");
-            }
+                catch (EmptyNicknameException exception)
+                {
+                    MessageBox.Show("Nose puede dejar Campos Vacios");
+                   
+                }
+                catch (NicknameExceedMaxLength exce){
+                MessageBox.Show("Has superado el maximo de caracteres disponible, intente nuevamente con menos de 20 caracteres");
+               }
         }
 
         private void txtNickname_KeyDown(object sender, KeyEventArgs e)

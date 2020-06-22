@@ -9,6 +9,7 @@
       <e p="Controlador" t="Include">
         <e p="ConnectionDB.cs" t="Include" />
         <e p="DatosJuego.cs" t="Include" />
+        <e p="EmptyNicknameException.cs" t="Include" />
         <e p="NicknameExceedMaxLength.cs" t="Include" />
         <e p="NoBoundException.cs" t="Include" />
         <e p="NoMoreLifesException.cs" t="Include" />

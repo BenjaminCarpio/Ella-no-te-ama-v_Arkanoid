@@ -90,6 +90,7 @@
     <ItemGroup>
         <Compile Include="Controlador\ConnectionDB.cs" />
         <Compile Include="Controlador\DatosJuego.cs" />
+        <Compile Include="Controlador\EmptyNicknameException.cs" />
         <Compile Include="Controlador\NicknameExceedMaxLength.cs" />
         <Compile Include="Controlador\NoBoundException.cs" />
         <Compile Include="Controlador\NoMoreLifesException.cs" />
