@@ -37,7 +37,9 @@ namespace Proyecto
             this.button1 = new System.Windows.Forms.Button();
             this.txtNickname = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -47,9 +49,9 @@ namespace Proyecto
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(236, 71);
+            this.label1.Location = new System.Drawing.Point(236, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(304, 148);
+            this.label1.Size = new System.Drawing.Size(305, 196);
             this.label1.TabIndex = 0;
             this.label1.Text = "Usuario";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -80,7 +82,7 @@ namespace Proyecto
             this.txtNickname.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtNickname.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F,
                 System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.txtNickname.Location = new System.Drawing.Point(237, 339);
+            this.txtNickname.Location = new System.Drawing.Point(237, 298);
             this.txtNickname.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtNickname.Name = "txtNickname";
             this.txtNickname.Size = new System.Drawing.Size(302, 46);
@@ -99,24 +101,35 @@ namespace Proyecto
                 new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
             this.tableLayoutPanel1.ColumnStyles.Add(
                 new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
-            this.tableLayoutPanel1.Controls.Add(this.label1, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.txtNickname, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.button1, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.txtNickname, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.pictureBox1, 2, 1);
+            this.tableLayoutPanel1.Controls.Add(this.label1, 1, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(
-                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.73494F));
             this.tableLayoutPanel1.RowStyles.Add(
-                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 43.20138F));
             this.tableLayoutPanel1.RowStyles.Add(
-                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 22.89157F));
             this.tableLayoutPanel1.RowStyles.Add(
                 new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(779, 581);
             this.tableLayoutPanel1.TabIndex = 3;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Location = new System.Drawing.Point(547, 198);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(229, 247);
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
             // 
             // Usuario
             // 
@@ -126,6 +139,7 @@ namespace Proyecto
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(779, 581);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Usuario";
@@ -135,6 +149,7 @@ namespace Proyecto
             this.Load += new System.EventHandler(this.Usuario_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
         }
 
@@ -144,5 +159,6 @@ namespace Proyecto
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox txtNickname;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

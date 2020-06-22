@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 using Proyecto.Controlador;
 using Proyecto.Modelo;
@@ -16,6 +17,8 @@ namespace Proyecto
             Height = ClientSize.Height;
             Width = ClientSize.Width;
             WindowState = FormWindowState.Maximized;
+            pictureBox1.Image = Image.FromFile("../../../Sprites/tutorial.gif");
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
         }
          private void Usuario_Load(object sender, EventArgs e)
                 {
