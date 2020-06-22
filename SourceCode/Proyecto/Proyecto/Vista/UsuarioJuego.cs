@@ -30,7 +30,7 @@ namespace Proyecto
             LoadTop10();
             DoubleBuffered = true;
             Dock = DockStyle.Fill;
-            LoadTop10();
+            //LoadTop10();
         }
 
         private void LoadTop10()

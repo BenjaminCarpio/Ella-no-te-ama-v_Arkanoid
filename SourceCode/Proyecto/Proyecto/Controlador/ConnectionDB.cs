@@ -8,7 +8,7 @@ namespace Proyecto.Controlador
         private static string host = "localhost",
             database = "ProyectoPOO",
             userID = "postgres",
-            pasword = "uca";
+            pasword = "1234505";
         
         private static string sConecction =
             $"Server={host};Port=5432;User Id={userID};Password={pasword};Database={database};";
