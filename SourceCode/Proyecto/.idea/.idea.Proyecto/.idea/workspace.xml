@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e3ed65d-66a3-4418-bf42-483579497ffe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Proyecto/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/Controlador/ConnectionDB.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Controlador/ConnectionDB.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/Controlador/NoBoundExceptio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Controlador/NoBoundException.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/Controlador/PlayerDAO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Controlador/PlayerDAO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/Controlador/RegistDAO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Controlador/RegistDAO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/Modelo/DatosJuego.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Controlador/DatosJuego.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/Proyecto.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Proyecto.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/Vista/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Vista/Form1.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/Vista/Juego.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Vista/Juego.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/Vista/Menu.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Vista/Menu.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/Vista/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Vista/Menu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/Vista/Usuario.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Vista/Usuario.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/Vista/UsuarioJuego.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/Vista/UsuarioJuego.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/bin/Debug/Proyecto.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/bin/Debug/Proyecto.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/bin/Debug/Proyecto.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/bin/Debug/Proyecto.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.csproj.GenerateResource.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto/obj/Debug/Proyecto.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="0e3ed65d-66a3-4418-bf42-483579497ffe" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,30 +11,30 @@
     <favorites_list name="Proyecto" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Proyecto/Controlador/NoMoreLifesException.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Proyecto/Controlador/NoBoundException.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Proyecto/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Proyecto/Vista/Form1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Proyecto/Vista/Juego.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Proyecto/Modelo/Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Proyecto/Vista/Juego.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Proyecto/Modelo/Regist.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Proyecto/Vista/Menu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Proyecto/Controlador/DatosJuego.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Proyecto/Vista/Menu.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Proyecto/Vista/Usuario.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Proyecto/Vista/Usuario.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Proyecto/Modelo/CustomBlocks.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Modelo/Regist.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Vista/Juego.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Proyecto/Vista/UsuarioJuego.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Proyecto/Vista/UsuarioJuego.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Vista/Juego.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Proyecto/Controlador/NicknameExceedMaxLength.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Proyecto/Controlador/ConnectionDB.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Proyecto/Controlador/PlayerDAO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Vista/Menu.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Controlador/NoMoreLifesException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Vista/Menu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Proyecto/Controlador/RegistDAO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Controlador/NoBoundException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Vista/Usuario.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Controlador/ConnectionDB.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Controlador/PlayerDAO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Vista/Form1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Controlador/DatosJuego.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Vista/UsuarioJuego.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Proyecto/Controlador/WrongStartKey.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proyecto/Vista/Usuario.Designer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -80,7 +58,6 @@
         <option value="$PROJECT_DIR$/Proyecto/Modelo/Regist.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Vista/Form1.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Vista/Menu.Designer.cs" />
-        <option value="$PROJECT_DIR$/Proyecto/Controlador/ConnectionDB.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Controlador/UncompleteTopTen.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Controlador/RegistDAO.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Controlador/PlayerDAO.cs" />
@@ -88,9 +65,10 @@
         <option value="$PROJECT_DIR$/Proyecto/Vista/Menu.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Controlador/WrongStartKey.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Controlador/NicknameExceedMaxLength.cs" />
-        <option value="$PROJECT_DIR$/Proyecto/Vista/Usuario.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Controlador/NoBoundException.cs" />
         <option value="$PROJECT_DIR$/Proyecto/Vista/Juego.cs" />
+        <option value="$PROJECT_DIR$/Proyecto/Controlador/ConnectionDB.cs" />
+        <option value="$PROJECT_DIR$/Proyecto/Vista/Usuario.cs" />
       </list>
     </option>
   </component>
@@ -162,6 +140,7 @@
       <workItem from="1592617759929" duration="2438000" />
       <workItem from="1592620655273" duration="6811000" />
       <workItem from="1592791770294" duration="12656000" />
+      <workItem from="1592888578764" duration="457000" />
     </task>
     <servers />
   </component>

@@ -38,6 +38,7 @@ namespace Proyecto
                     
                 PlayerDAO.insertPlayer(txtNickname.Text); //Se comprueba si existe o no el nickname en la base y se agrega si no existe
                 GlobalNickname = txtNickname.Text;
+                this.Hide();
                 var ventana = new Menu();
                 ventana.playername = txtNickname.Text;
                 ventana.Show();
