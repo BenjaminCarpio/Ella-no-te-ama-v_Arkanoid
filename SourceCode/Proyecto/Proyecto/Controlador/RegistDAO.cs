@@ -38,7 +38,7 @@ namespace Proyecto.Controlador
             }
             catch (Exception e)
             {
-                MessageBox.Show("Ha ocurrido un error! si es esta cosa del insert");
+                MessageBox.Show("Ha ocurrido un error!(Con la base de datos)");
             }
         }
     }
