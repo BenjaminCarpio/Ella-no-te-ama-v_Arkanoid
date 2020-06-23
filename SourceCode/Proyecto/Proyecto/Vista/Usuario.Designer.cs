@@ -44,16 +44,17 @@ namespace Proyecto
             // 
             // label1
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular,
+            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label1.Font = new System.Drawing.Font("Goudy Stout", 27.75F, System.Drawing.FontStyle.Regular,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(236, 0);
+            this.label1.Location = new System.Drawing.Point(219, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(305, 196);
+            this.label1.Size = new System.Drawing.Size(285, 171);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Usuario";
+            this.label1.Text = "Ingrese un usuario";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button1
@@ -68,10 +69,10 @@ namespace Proyecto
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button1.Location = new System.Drawing.Point(3, 468);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Location = new System.Drawing.Point(2, 423);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(773, 109);
+            this.button1.Size = new System.Drawing.Size(720, 82);
             this.button1.TabIndex = 1;
             this.button1.Text = "Continuar";
             this.button1.UseVisualStyleBackColor = false;
@@ -82,10 +83,10 @@ namespace Proyecto
             this.txtNickname.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtNickname.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F,
                 System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.txtNickname.Location = new System.Drawing.Point(237, 298);
-            this.txtNickname.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtNickname.Location = new System.Drawing.Point(229, 261);
+            this.txtNickname.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtNickname.Name = "txtNickname";
-            this.txtNickname.Size = new System.Drawing.Size(302, 46);
+            this.txtNickname.Size = new System.Drawing.Size(265, 38);
             this.txtNickname.TabIndex = 2;
             this.txtNickname.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtNickname.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtNickname_KeyDown);
@@ -107,7 +108,7 @@ namespace Proyecto
             this.tableLayoutPanel1.Controls.Add(this.label1, 1, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(
@@ -117,31 +118,31 @@ namespace Proyecto
             this.tableLayoutPanel1.RowStyles.Add(
                 new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 22.89157F));
             this.tableLayoutPanel1.RowStyles.Add(
-                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(779, 581);
+                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 15F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(724, 508);
             this.tableLayoutPanel1.TabIndex = 3;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Location = new System.Drawing.Point(547, 198);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(508, 172);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(229, 247);
+            this.pictureBox1.Size = new System.Drawing.Size(214, 217);
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
             // Usuario
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(779, 581);
+            this.ClientSize = new System.Drawing.Size(724, 508);
             this.Controls.Add(this.tableLayoutPanel1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "Usuario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Usuario";

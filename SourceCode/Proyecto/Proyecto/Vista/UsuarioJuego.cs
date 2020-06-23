@@ -89,5 +89,10 @@ namespace Proyecto
             ventana.Show();
             lbltop10.Hide();
         }
+
+        private void label2sc_Click(object sender, EventArgs e)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
