@@ -1,0 +1,18 @@
+CREATE TABLE public."PLAYER"
+(
+    nickname character varying(20) NOT NULL,
+    PRIMARY KEY (nickname)
+);
+
+CREATE TABLE public."REGIS"
+(
+    "idScore" serial NOT NULL,
+    nickname character varying NOT NULL,
+    score integer,
+    CONSTRAINT pk_score PRIMARY KEY ("idScore"),
+    CONSTRAINT fk_nikcname FOREIGN KEY (nickname)
+        REFERENCES public."PLAYER" (nickname) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+        NOT VALID
+);
